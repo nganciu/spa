@@ -35,7 +35,8 @@ window.onload = function () {
     return false
   })
 
-  const scriptURL = '' //ENTER A VALID GDRIVE SCRIPT URL
+  const scriptURL =
+    'https://script.google.com/macros/s/AKfycbwiEHNX5uFFI8XoXDFJs86q1sdsQXUXdRl9RodDmI7rsTeqdPgiCQFnoRC3nAeDRZHl/exec'
   const form = document.forms['submit-to-GDrive']
 
   form.addEventListener('submit', async e => {
